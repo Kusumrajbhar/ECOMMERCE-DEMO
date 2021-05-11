@@ -19,3 +19,9 @@ export const removeSelectedProduct = () => {
       type: actionTypes.REMOVE_SELECTED_PRODUCT,
     };
   };
+
+  export const finish = () => {
+      return {
+          type:'FINISH'
+      }
+  }
